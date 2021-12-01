@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Article preview component</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <article class="article">
+        <section class="article__image">
+          <img src="./images/drawers.jpg" alt="" />
+        </section>
+
+        <section class="article__content">
+          <h1 class="article__content-title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="article__content-info">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <footer class="article__footer">
+            <!-- share links -->
+            <div class="article__footer__links" id="shareLinks">
+              <p>Share</p>
+              <a><img src="./images/icon-facebook.svg" alt="facebook" /></a>
+              <a><img src="./images/icon-twitter.svg" alt="twitter" /></a>
+              <a><img src="./images/icon-pinterest.svg" alt="pinterest" /></a>
+            </div>
+
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="author image"
+              class="article__footer-author__image"
+            />
+            <div class="article__footer-author__info">
+              <p class="article__footer-author__info--name">
+                Michelle Appleton
+              </p>
+              <p class="article__footer-author__info--date">20 Jun 2020</p>
+            </div>
+            <button class="article__footer-share" id="shareButton">
+              <img src="./images/icon-share.svg" alt="" />
+            </button>
+          </footer>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
